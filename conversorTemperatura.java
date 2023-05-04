@@ -12,7 +12,7 @@ public class conversorTemperatura {
         Scanner entrada = new Scanner(System.in);
 
         do{
-            System.out.println("\n\t\t\t -- Converta a Temperatura -- \n");
+            System.out.println("\n\t\t\t -- Conversor de Temperaturas -- \n");
             System.out.println("1. Celsius para Fahrenheit");
             System.out.println("2. Fahrenheit para Celsius");
             System.out.println("3. Sair");
@@ -36,7 +36,7 @@ public class conversorTemperatura {
                 System.out.println("\n\t\t\t -- Fahrenheit para Celsius -- \n");
 
                 //Entrada
-                System.out.print("informe os graus em Fahrenheit: ");
+                System.out.print("Informe os graus em Fahrenheit: ");
                 f = entrada.nextDouble();
 
                 //Processamento
@@ -46,10 +46,10 @@ public class conversorTemperatura {
                 System.out.println("\n\t\t\t-- °" + f + "° é igual à °" + c + " celsius --\n");
             
             }else if(op == 3){
-                System.out.println("\n\t\t\t-- Forte Abraço --\n");
+                System.out.println("\n\t\t\t-- Forte Abraço! --\n");
                 
             }else{
-                System.out.println("\n\t\t\t -- Incorreto, escolha um numero de 1 à 3 -- \n");
+                System.out.println("\n\t\t\t -- Incorreto! escolha um número de 1 a 3 -- \n");
             }
         }while(op!=3);
     }
